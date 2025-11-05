@@ -51,3 +51,20 @@ Valor_unitario = RELATED(Produtos[Valor])
 Faturamento: 
 Faturamento = 'Vendas'[Quantidade] * 'Vendas'[Valor_unitario]
 ```
+
+## 7 - Criando nova medida 'Faturamento_total'. 
+```
+Na tabela vendas coloque a formula : 
+Faturamento_total = SUM('Vendas'[Faturamento])
+```
+## 8 - O arquivo BI pronto é o Pwbi.pbix.
+
+
+## 9 - Exemplo : 
+### Dashboard - PC
+![Dashboard](./img_utils/dashboard.png)
+### Dashboard - Celular (img 1)
+![Dashboard - Celular (img 1)](./img_utils/cell%201.png)
+
+### Dashboard - Celular (img 2)
+![Dashboard - Celular (img 1)](./img_utils/cell%202.png)
